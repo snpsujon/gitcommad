@@ -1,0 +1,79 @@
+******config git*******
+git config --global user.name snpsujon
+git config --global user.name snpsujon
+***********add to git*****
+git init
+******show added or not******
+ls -lart
+******add to tracked****
+git add -A
+****show status*****
+git status
+####for short status####
+git satatus -s
+*******for commit or save*******
+git commit filename
+i
+some comment
+esc>>:wq
+git status
+for all commit-
+git commit -m "Some comment"
+
+*******Back Last commit********
+git chackout filename
+for all-
+git chackout -f
+
+****for log********
+git log
+
+#####for filtered log#####
+git log -p -1
+for quit press- q
+
+
+***for showing where change****
+git diff
+####for last stage with last commit######
+git dif --staged
+
+*****direct add to commit without to stage*******
+git commit -a -m "some comment"
+
+****remove somefile directly*********
+git rm filename
+
+******remove from tracked*********
+git rm --cached filename
+
+*****ignore file***
+touch .gitignore
+
+edit gitignore file and add whis need to ignore
+
+********branch or vertion********
+git branch versionname
+
+********switch to branch*******
+git checkout versionname
+
+
+*****add version and goes to that version directly****
+git checkout -b versionname
+
+*******merging the version*****
+git merge versionname
+
+
+*******add to git****
+go to the github and create repo and follow the instruction
+
+****show push url*****
+git remote -v
+
+****first push****
+git push -u origin master[versionname]
+
+
+
